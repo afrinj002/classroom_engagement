@@ -14,11 +14,12 @@ const Home = () => {
           Stay connected with real-time attendance, course progress, and engagement analytics.
         </p>
       </div>
-      <div className="auth-section">
-        <div className="auth-box">
+
+      <div className="auth-container">
+        <div className="auth-card">
           <LoginPage />
         </div>
-        <div className="auth-box">
+        <div className="auth-card">
           <SignupPage />
         </div>
       </div>
